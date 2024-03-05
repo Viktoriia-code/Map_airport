@@ -28,7 +28,7 @@
           data.rows.forEach(item => {
               var marker = L.marker([item.latitude_deg, item.longitude_deg]).addTo(map);
               // Customize marker popup
-              var popupContent = item.name + " (" + item.municipality + ")";
+              var popupContent = item.name + "<br>" + item.municipality + " (" + item.country_name + ")";
               marker.bindPopup(popupContent);
           });
       });
