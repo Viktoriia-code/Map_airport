@@ -6,3 +6,5 @@ This page is created as a part of the airplane flights simulation project.
 Page link: https://viktoriia-code.github.io/map-airport
 
 Project repo: https://github.com/Viktoriia-code/suitcase-adventure-game
+
+:pushpin: This webpage utilizes Leaflet, a popular JavaScript library for interactive maps, to display key airports around the world.
